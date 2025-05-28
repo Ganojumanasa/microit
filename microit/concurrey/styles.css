@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.currency-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+#swap {
+  width: auto;
+  padding: 0 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
